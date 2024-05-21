@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+    <script>
+       function larger(num1,num2)
+       {
+        return num1>num2 ? num1 : num2;
+       }
+        function checkodd(num)
+        {
+            if(num%2==0)
+            {
+                let ans='even';
+                return ans;
+            }
+            else{
+                let ans='odd';
+                return ans;
+            }
+           
+        }
+        console.log(checkodd(6));
+        console.log(larger(67,90));
+        console.log('this is anjali the coder'.toUpperCase());
+        console.log('this is anjali the coder'.replace('anjali','harsh').toUpperCase());
+
+        const anu=new Date();
+         let c=anu.getHours()
+         bade(c);
+        function bade(c){
+         if(c<12)
+         {
+           console.log('good morning');
+         }
+         else if(c>=12  && c<=17)
+         {
+            console.log('good afternoon');
+         }
+         else if(c>=17  && c<=20)
+         {
+            console.log('good evening');
+         }
+         else{
+            console.log('good night');
+         }
+        }
+    </script>
+</body>
+</html>

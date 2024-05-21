@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let object={
+         company:'myntra',
+         product:'jeans',
+         price:900,
+        };
+       let company=object.company;
+      console.log(company);
+      
+      let a=5;
+      let b=a;
+      console.log(`a=${a} , b=${b}`);
+      b=8;
+      console.log(`a=${a} , b=${b}`);
+      
+      let x = {num:5} ;
+      y=x;
+      console.log(`x=${x.num} , y=${y.num}`);
+       x.num=8
+       console.log(`x=${x.num} , y=${y.num}`);
+
+       let bade={
+        message:'good-job',
+        status:'complete',
+       }
+       
+        
+       let {status,message}= bade;
+       console.log(status,message);
+    </script>
+</body>
+</html>

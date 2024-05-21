@@ -1,0 +1,53 @@
+*{
+    font-family: "Dancing Script", cursive;
+}
+body{
+   gap: 5rem;
+   background-color: rgb(173, 224, 224);
+   text-align: center;
+   
+}
+.choice-button{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.choice-button:hover{
+    scale: 1.1;
+    box-shadow: 3px 3px 3px black;
+    filter: grayscale(1);
+}
+.choice-image{
+    height: 75%;
+    width:75%;
+    object-fit: fill;
+    
+}
+.reset-button{
+    background-color: darkgray;
+    margin: 5px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 119.2px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: rgb(206, 146, 146);
+}
+.reset-button:hover{
+    box-shadow: 3px 3px 3px black;
+}
+#batballstump{
+    height: 710px;;
+    border: 5px dashed grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.resultdisplay{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
